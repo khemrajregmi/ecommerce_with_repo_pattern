@@ -1,0 +1,122 @@
+ .account-element-list{
+         list-style: none;
+         padding:0px;
+         }
+         .account-element-list li{
+         display: block;
+         position: relative;
+         padding: 10px;
+         text-decoration: none;
+         background-color: #fff;
+         border: 1px solid #e6e6e4;
+         margin-bottom: 1px;
+         cursor: pointer;
+         }
+         .account-element-list li a{
+         color:#565656;
+         width: 100%
+         }
+         .account-element-list li:hover{
+         background-color:#bfbfbf;
+         }
+         .account-element-list li:hover a{
+         color:#333;
+         text-decoration: none;
+         }
+         .account-element-list li:first-child{
+         -moz-border-radius-topleft: 5px !important;
+         -moz-border-radius-topright: 5px !important;
+         -moz-border-radius-bottomright: 0 !important;
+         -moz-border-radius-bottomleft: 0 !important;
+         -webkit-border-top-left-radius: 5px !important;
+         -webkit-border-top-right-radius: 5px !important;
+         -webkit-border-bottom-right-radius: 0 !important;
+         -webkit-border-bottom-left-radius: 0 !important;
+         border-top-left-radius: 5px !important;
+         border-top-right-radius: 5px !important;
+         border-bottom-right-radius: 0 !important;
+         border-bottom-left-radius: 0 !important;
+         }
+         .account-element-list li i{
+         margin-right:10px;
+         font-size: 14px;
+         }
+         .order-history-table img{
+          width:100px;
+          height: 100px;
+         }
+         .user-info-wrapper{
+         font-size: 14px;
+         }
+         .user-info-wrapper label{
+         font-weight: 600;
+         color:#333;
+         width:250px;
+         }
+         .margin-bottom-10{
+         margin-bottom:10px;
+         }
+         .border-bottom{ margin:0 0 10px 0; padding:10px 0 0 0; border-bottom: 1px solid #bfbfbf; }
+         .cursor-pointer{
+         cursor: pointer;
+         }
+         /*wishlist*/
+         .wishlist {
+         display: -webkit-flex;
+         display: flex;
+         clear: both;
+         }
+         .wishlist .wishlist-title {
+         font-weight: bold;
+         font-size: 14px;
+         }
+         .wishlist-product_1st {
+         width: 15%;
+         }
+         .wishlist-product_2nd {
+         width: 30%;
+         }
+         .wishlist-product_3rd {
+         width: 15%;
+         }
+         .wishlist-product_4th {
+         width: 10%;
+         }
+         .wishlist-product_5th {
+         width: 15%;
+         }
+         .wishlist-product_6th {
+         width: 15%;
+         border-right: 1px solid #eeeeee;
+         }
+         .wishlist-product_6th .btn--wd{
+         font-size: 12px;
+         height: 30px;
+         line-height: 30px;
+         padding: 0 16px;
+         }
+         .wishlist-product_holder {
+         width: 100%;
+         overflow: hidden;
+         text-align: center;
+         vertical-align: middle;
+         position: relative;
+         border: 1px solid #ffffff;
+         }
+         .wishlist-product_holder img {
+         width: 100px;
+         }
+         .wishlist-product {
+         margin: 0;
+         float: left;
+         border-top: 1px solid #eeeeee;
+         border-left: 1px solid #eeeeee;
+         border-bottom: 1px solid #eeeeee;
+         background: #ffffff;
+         color: #323232;
+         font-weight: normal;
+         font-size: 13px;
+         }
+         .wishlist-product {
+         padding: 10px;
+         }

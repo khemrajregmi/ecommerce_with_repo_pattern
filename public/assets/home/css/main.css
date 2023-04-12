@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 26, 2015, 6:40:57 AM
+    Author     : aneal
+*/
+
+*{
+    margin: 0;
+    padding:0;
+    /*    transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;*/
+}
+.reg-wiz-body{
+    position:relative;
+}
+.reg-wiz-tab-panel,.reg-wiz-tab-panel2{
+    /*border:1px solid #ccc;*/
+    /*background: orangered;*/
+    color:#fff;
+    padding:15px;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+.reg-wiz-tab-panel,.reg-wiz-tab-panel2 label{
+    color:#4a4a4a;
+}
+.rwtn-capsule,.rwtn-capsule2{
+    font-size: 12px;
+    display: inline-block;
+}
+.rwtn-capsule >div:first-child,.rwtn-capsule2 >div:first-child {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    border-radius: 100%;
+    line-height: 87px;
+    text-align: center;
+    position:relative;
+    color: #fff;
+    background: #15a78f;
+    z-index: 9;
+}
+.rwtn-capsule >div:last-child,.rwtn-capsule2 >div:last-child{
+    position:relative;
+}
+.rwtn-capsule >div:last-child::after,.rwtn-capsule2 >div:last-child::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: #15a78f;
+    left: -50%;
+    top: -35px;
+}
+#rwtTab1.rwtn-capsule >div:last-child::after,#rwtTab21.rwtn-capsule2 >div:last-child::after{
+    width:50%;
+    left:0;
+}
+.rwtn-capsule.success-capsule >div:last-child::after,.rwtn-capsule2.success-capsule2 >div:last-child::after{
+    background: #f14a66 !important;   
+}
+.rwtn-capsule.success-capsule >div:first-child,.rwtn-capsule2.success-capsule >div:first-child{
+    color: #ffffff;
+    background: #f88c91;
+}
+.rwtn-capsule >div:first-child > i,.rwtn-capsule2 >div:first-child > i{
+    font-size: 32px;
+}
+
+.reg-wiz-footer .icon{ font-size: 12px; }
+
+

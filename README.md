@@ -1,6 +1,7 @@
 # Kerung
 
-Kerung is an E-commerce Platform.
+Kerung is an E-commerce Platform Created by Khem Raj Regmi which is intially based on 5.3 version of Laravel which is 
+developed more that 5 years ago but the concept of Repository Design Pattern is still applicable as it was. :) :)
 
 #### local
 
